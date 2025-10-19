@@ -2,9 +2,6 @@ name: app-build-action
 #推送Tag时触发
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - "v*"
 jobs:
   build-android:
     runs-on: macos-latest
